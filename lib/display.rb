@@ -36,6 +36,7 @@ module Display
   end
 
   def winner_message
+    update_id
     puts "Congrats, Player #{@id.name} has won the game"
     puts 'Exiting the game now'
   end
